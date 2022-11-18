@@ -1,7 +1,12 @@
 #!/bin/bash
-#
-#
-#
+
+####################################################
+# This script accepts an input and check if
+# it's an odd or even number.
+# Author: Neethu
+# Date: 11/17/2022
+# Usage: ./evenOdd.sh
+####################################################
 
 # Read the input number
 read -p "Enter a number : " number
