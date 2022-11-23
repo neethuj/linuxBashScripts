@@ -25,4 +25,5 @@ else
     # Error: not a number
     echo "error: Not a number"
 fi
-sleep 5;
+
+# sleep 5;
