@@ -11,7 +11,8 @@
 #####################################################
 
 
-filePrefix="neethu"
+#filePrefix="neethu"
+read -p "Enter your file prefix: " filePrefix
 echo "checking if files with prefix $filePrefix exist"
 fileCount=`ls -l $filePrefix* 2>/dev/null | wc -l`
 if [[ $fileCount -eq 0 ]]; then
